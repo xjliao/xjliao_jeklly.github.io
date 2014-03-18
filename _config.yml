@@ -1,18 +1,18 @@
-markdown: rdiscount
+markdown: rdiscount 
 permalink: /:title/
-url: http://89ao.info
-name: 89Ao.info
-author: AoGang
-qq: 103230005
-email: 89ao@live.com
-duoshuo: 89ao
+url: 
+name: 
+author: xjliao 
+qq: 909012329 
+email: lxj990@gmail.com 
+duoshuo: xjliao 
 #beian: 浙ICP备12026616号
 #cnzz: 119959
-weibo: 2067815867
-github: 89ao
+weibo: lxj990@gmail.com 
+github: xjliao 
 pygments: true
 safe: true
-paginate: 20
+paginate: 30
 about: "攻城狮一头，目前从事Linux的相关运维。	
 热爱Linux，开源爱好者，喜欢虚拟化，github等。		
 电脑洁癖与性能癖。  	

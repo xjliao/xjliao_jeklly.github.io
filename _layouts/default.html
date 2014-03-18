@@ -6,14 +6,17 @@
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+	<link rel="stylesheet" href="/css/pygments.css" />
     <link rel="stylesheet" href="/media/css/style.css" />
-    <link rel="stylesheet" href="/media/css/highlight.css" />
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="/media/js/outliner.js"></script>
+	<script type="text/javascript" src="/media/js/outliner.js"></script>
   </head>
 <!--  <body> 
 -->
   <script type="text/javascript">
+  $(function() {
+      window.prettyPrint && prettyPrint();
+    });
     function setTimeSpan(){
     	var date = new Date();
     	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
@@ -64,7 +67,7 @@
 
     <footer>
         <p><small>
-            <a href="http://github.com/{{ site.github }}/89ao.github.io/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.github }}/89ao.github.io/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/89ao.github.io" target="_blank" title="项目主页">GitHub</a> | Copyright 2013 - {{site.time | date:"%Y"}} by <a href="/about/">89Ao</a> | <span class="label label-info" id="timeSpan"></span></small></p>
+            <a href="http://github.com/{{ site.github }}/xjliao.github.io/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.github }}/xjliao.github.io/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/xjliao.github.io" target="_blank" title="项目主页">GitHub</a> | Copyright 2013 - {{site.time | date:"%Y"}} by <a href="/about/">xjliao</a> | <span class="label label-info" id="timeSpan"></span></small></p>
     </footer>
 
     </div>
