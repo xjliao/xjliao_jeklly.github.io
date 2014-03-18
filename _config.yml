@@ -1,4 +1,4 @@
-markdown: rdiscount 
+markdown: redcarpet 
 permalink: /:title/
 url: xjliao.me 
 name: xjliao.me 
@@ -6,8 +6,6 @@ author: xjliao.me
 qq: 909012329 
 email: lxj990@gmail.com 
 duoshuo: xjliao 
-#beian: 浙ICP备12026616号
-#cnzz: 119959
 weibo: lxj990@gmail.com 
 github: xjliao
 pygments: true
