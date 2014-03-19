@@ -12,7 +12,7 @@ tags:
 说明：route命令是打印和操作ip路由表
 
 描述：route操作基于内核ip路由表，它的主要作用是创建一个静态路由让指定一个主 机或者一个网络通过一个网络接口，如eth0。当使用"add"或者"del"参数时，路由表被修改，如果没有参数，则显示路由表当前的内容。
-{% highlight java linenos %}
+{% highlight ruby %}
 	参数说明：add:添加一条新路由。
           del:删除一条路由。
           -net:目标地址是一个网络。
@@ -41,15 +41,15 @@ tags:
 
 路由表内容说明：
 查看路由
-{% highlight java linenos %}
+
+{% highlight java linenos%}
 public class {
 	public static void main(String[] args) {
 		System.out.println('Hello World');
 	}
 }	
 {% endhighlight %}
-Destination：目标网络或主机。
-Gateway：网关地址。
+
 Genmask：目标网络的网络掩码。"255.255.255.255"表示一个主机。"0.0.0.0"表示网关。
 Flags：标记。	
       U、路由被启用。	
