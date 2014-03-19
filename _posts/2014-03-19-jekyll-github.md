@@ -5,7 +5,6 @@ categories:
 - ruby
 - jekyll
 - github
-- blog
 tags:
 - ruby
 - jekyll
