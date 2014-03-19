@@ -151,4 +151,4 @@ $ git remote add xjliao git@github.com:xjliao/xjliao.github.io.git //添加自�
 $ git push xjliao master //推送到自己的主线分支版本
 {% endhighlight %}
 
-10分钟左右访问 [xjliao.github.io](xjliao.github.io) 就ok了
+10分钟左右访问<http://xjliao.github.io> 就ok了
