@@ -16,8 +16,11 @@ tags:
 ## 注册github账户
 <https://github.com>, 这个不用教吧！
 ## 创建Repository
-创建的repository名称格式：
-{% highlight sh %}
+创建的repository
+```
+名称格式：
+```
+{% highlight console %}
 username.github.io  //用户名.github.io
 {% endhighlight %}
 ![create-repository](/assets/jekyll-github/create-repository.jpg)
@@ -37,52 +40,52 @@ jekyll是一个静态网站生成器
 1)、rvm 安装
 
 rvm是ruby的管理器
-{% highlight sh %}
+{% highlight console %}
 $ curl -L https://get.rvm.io | bash -s stable
 {% endhighlight %}
 安装期间，需要root权限，如果需要本终端生效的话，执行下列命令，新开终端无需执行。
-{% highlight sh %}
+{% highlight console %}
 $ source ~/.rvm/scripts/rvm
 {% endhighlight %}
 检查是否安装成功
-{% highlight sh %}
+{% highlight console %}
 $ rvm -v
 {% endhighlight %}
 如果有显示rvm版本信息，则安装成功
 
 2)、ruby安装
-{% highlight sh %}
+{% highlight console %}
 $ rvm install 1.9.3 //安装版本为1.9.3
 {% endhighlight %}
 可能时间比较长,安装完成测试
-{% highlight sh %}
+{% highlight console %}
 $ rvm -v
 {% endhighlight %}
 安装完后，RubyGems同时也安装完成
 测试
-{% highlight sh %}
+{% highlight console %}
 $ gem -v
 {% endhighlight %}
 由于RubyGems默认源速度慢，修改为淘宝源
-{% highlight sh %}
+{% highlight console %}
 $ gem source -a http://ruby.taobao.org
 $ gem source -r https://rubygems.org/
 {% endhighlight %}
 ###jekyll安装
-{% highlight sh %}
+{% highlight console %}
 $ gem install jekyll
 {% endhighlight %}
 ###测试下
-{% highlight sh %}
+{% highlight console %}
 $ jekyll -v
 {% endhighlight %}
 ###新建站点
-{% highlight sh %}
+{% highlight console %}
 $ jekyll new blog
 {% endhighlight %}
 将在本目录生成目录名为blog，里面为jekyll所需文件框架
 ###测试新建站点
-{% highlight sh %}
+{% highlight console %}
 $ cd ./blog && jekyll server
 {% endhighlight %}
 可以通过访问localhost:4000验证启动是否成功。
@@ -99,12 +102,12 @@ github地址:<https://github.com/89ao/89ao.github.io>
 
 ## github部署jekyll
 ###项目克隆到本地
-{% highlight sh %}
-git clone git@github.com:89ao/89ao.github.io.git
+{% highlight console %}
+$ git clone git@github.com:89ao/89ao.github.io.git
 {% endhighlight %}
 默认在当前目录创建和Repository名称一样的目录，如果要修改，则在后面加上目录名即可
-{% highlight sh %}
-git clone git@github.com:89ao/89ao.github.io.git xjliao.github.io
+{% highlight console %}
+$ git clone git@github.com:89ao/89ao.github.io.git xjliao.github.io
 {% endhighlight %}
 
 我们看下xjliao.github.io目录里的_config.yml，这是我修改之后的
@@ -127,7 +130,7 @@ about: ""
 主要是些配置信息，可以通过如{{ site.url }}在html、markdown文件里直接引用，稍微解释下配置信息：
 >markdown 渲染引擎，有redcarpet，rdiscount等，要使用，你确定你已经安装过。
 安装
-{% highlight sh %}
+{% highlight console %}
 $ gem install redcarpet
 $ gem install rdiscount
 {% endhighlight %}
@@ -146,7 +149,7 @@ $ gem install rdiscount
 其他详细，[jekyll documentation](http://jekyllcn.com/docs/home/)
 
 ### 推送到xjliao.github.io
-{% highlight sh %}
+{% highlight console %}
 $ git remote add xjliao git@github.com:xjliao/xjliao.github.io.git //添加自己的repository并别名为xjliao
 $ git push xjliao master //推送到自己的主线分支版本
 {% endhighlight %}

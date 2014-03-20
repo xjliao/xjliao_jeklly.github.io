@@ -1,5 +1,5 @@
 markdown: redcarpet
-permalink: /:title/
+permalink: /:year/:month/:day/:title.html 
 url: http://xjliao.me 
 name: xjliao.me 
 author: xjliao
