@@ -155,3 +155,57 @@ $ git push xjliao master //推送到自己的主线分支版本
 {% endhighlight %}
 
 10分钟左右访问<http://xjliao.github.io> 就ok了
+
+## Pygments 语法高亮
+[下载地址](https://pypi.python.org/pypi/Pygments 'download') 所支持100多种[语言](http://pygments.org/languages/) 样式[demo](http://pygments.org/demo/)
+
+安装
+
+```console
+$ wget https://pypi.python.org/packages/source/P/Pygments/Pygments-1.6.tar.gz#md5=a18feedf6ffd0b0cc8c8b0fbdb2027b1
+$ tar -zxvf ./Pygments-1.6.tar.gz
+$ cd ./Pygments-1.6
+$ python setup.py install
+$ pygmentize -S monokai -f html -a pre > pygments.css
+```
+-S 指定样式 -f 格式的类型 -a 一个特定的格式
+
+将生成的pygments.css 拷贝到jekyll 目录(可以里面的随意目录)，我就发放到和jekyll主题的css样式文件一个目录吧，然后修改 default.html 默认模板，删除默认高亮样式，加入pygments.css样式。
+这个jekyll的主题样式因为与pygments有些冲突，删除了下面两行就可以了
+
+```css
+pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
+code{background-color:#D0D0D0;}
+```
+
+## github 绑定域名
+在jekyll根目录新增或修改CNAME文件，里面添加上你的域名
+
+```text
+xjliao.me
+```
+
+## 域名注册 DNS设置 A记录绑定
+推荐号称全球最大的域名注册商[godaddy](http://www.godaddy.com/)上购买，支持支付宝付款，有较多优惠码，就算没有也比国内的便宜点！
+购买注册就不多讲了，主要讲下指定A记录和DNS解析
+
+进入domains管理界面选择域名设置DNS
+![DNSSET](/assets/jekyll-github/godaddy-set-dns.png)
+添加DNS，这里使用的是dnspod的解析服务
+![DNSSETPOD](/assets/jekyll-github/godaddy-set-dns-dnspod.png)
+然后登陆dnspod添加下要设置A记录的域名
+![DNSSETPOD](/assets/jekyll-github/dns-pod-add-domain.png)
+点击域名进入A记录设置界面
+![DNSSETPOD](/assets/jekyll-github/dns-pod-add-a-record.png)
+主机记录填写值  
+@ 直接解析主域名 xjliao.me、wwww 解析后的域名为 www.xjliao.me、* 泛解析，匹配其他所有域名 *.xjliao.me
+
+记录类型为A记录，记录值为usrename.github.io的ip，ping下就知道了。
+然后，就没有然后了，奥，对了，要保存！稍等片刻即可了！  
+
+访问username.github.io 访问指向了绑定的域名 username.github.com也可以！就这样了
+
+其他参考资料  
+[jekyll](http://jekyllrb.com/):<http://jekyllrb.com/>  
+[markdown](http://wowubuntu.com/markdown/):<http://wowubuntu.com/markdown/>  
+[pygments](http://pygments.org/):<http://pygments.org/>
