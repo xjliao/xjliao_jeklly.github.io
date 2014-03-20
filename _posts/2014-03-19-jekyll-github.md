@@ -151,7 +151,7 @@ $ gem install rdiscount
 ### 推送到xjliao.github.io
 {% highlight console %}
 $ git remote add xjliao git@github.com:xjliao/xjliao.github.io.git //添加自己的repository并别名为xjliao
-$ git push xjliao master //推送到自己的主线分支版本
+$ git push xjliao master //推送到自己的主线分支版本,注意使用ssh，需要把本地ssh公钥拷贝至github
 {% endhighlight %}
 
 10分钟左右访问<http://xjliao.github.io> 就ok了
