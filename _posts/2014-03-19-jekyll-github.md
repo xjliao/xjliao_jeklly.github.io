@@ -14,7 +14,7 @@ tags:
 
 #一、gitHub
 ## 注册github账户
-<https://github.com>, 这个不用教吧！
+<https://github.com>, 这个怎么说呢！
 ## 创建Repository
 创建的repository
 ```
@@ -40,7 +40,7 @@ jekyll是一个静态网站生成器
 1)、rvm 安装
 
 rvm是ruby的管理器
-{% highlight console %}
+{% highlight console%}
 $ curl -L https://get.rvm.io | bash -s stable
 {% endhighlight %}
 安装期间，需要root权限，如果需要本终端生效的话，执行下列命令，新开终端无需执行。
