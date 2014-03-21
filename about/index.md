@@ -5,13 +5,7 @@ comments: no
 
 ---
 
-攻城狮一头，目前从事Linux的相关运维。     
-
-热爱Linux，开源爱好者，喜欢虚拟化，github等。            
-
-电脑洁癖与性能癖。       
-
-偶尔微博，偶尔wow。  
+......
 
 ---
 
@@ -24,12 +18,12 @@ comments: no
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
-GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
+GitHub : [http://github.com/xjliao/xjliao.github.io](http://github.com/xjliao/xjliao.github.io)
 
 ----
 
 
-本博客clone自[webfrog](https://github.com/webfrogs/webfrogs.github.com)，在此非常感谢这个简洁漂亮的主题。
+本博客clone自[89ao.info](https://github.com/89ao/89ao.github.io)
 
 **添加功能**:
 
