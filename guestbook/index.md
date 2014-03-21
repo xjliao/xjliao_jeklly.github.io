@@ -6,7 +6,7 @@ thread: 616
 ---
 
 
-![](http://ww3.sinaimg.cn/mw690/8fd8d33fgw1eenu2vysjmj20go0m8764.jpg)
+![](http://xjliao.qiniudn.com/lou_li_hua.jpg)
 
 
 来了，就留下你的足迹吧。
