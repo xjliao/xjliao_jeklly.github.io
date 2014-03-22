@@ -4,12 +4,12 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="{{ site.tc }}/favicon.ico" />
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-	<link rel="stylesheet" href="/css/pygments.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="/js/outliner.js"></script>
+	<link rel="stylesheet" href="{{ site.tc }}/css/pygments.css" />
+    <link rel="stylesheet" href="{{ site.tc }}/css/style.css" />
+    <script type="text/javascript" src="{{ site.tc }}/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="{{ site.tc }}/js/outliner.js"></script>
 	<script type="text/javascript">
 	  $(function() {
 		  window.prettyPrint && prettyPrint();
@@ -57,7 +57,7 @@
         {{ content }}
         </article>
         <a style="position:fixed;bottom:5px;right:5px;" href="#" title="Back to Top">
-            <img src="/img/btt.png" />
+            <img src="{{ site.tc }}/img/btt.png" />
         </a> 
       </div>
 

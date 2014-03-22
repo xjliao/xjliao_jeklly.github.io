@@ -6,7 +6,6 @@ thread: 616
 ---
 
 
-![](http://xjliao.qiniudn.com/img/guestbook.jpg)
-
+![]({{ site.tc}}/img/guestbook.jpg)
 
 来了，就留下你的足迹吧。

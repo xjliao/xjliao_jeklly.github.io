@@ -23,7 +23,7 @@ tags:
 {% highlight console %}
 username.github.io  //用户名.github.io
 {% endhighlight %}
-![create-repository](/img/jekyll-github/create-repository.jpg)
+![create-repository]({{ site.tc }}/img/jekyll-github/create-repository.jpg)
 
 #二、jekyll
 jekyll是一个静态网站生成器
@@ -90,7 +90,7 @@ $ cd ./blog && jekyll server
 {% endhighlight %}
 可以通过访问localhost:4000验证启动是否成功。
 如果看到下面这样的页面，就表示成功了！
-![jekyll-server-succ](/img/jekyll-github/jekyll-server-succ.png)
+![jekyll-server-succ]({{ site.tc }}/img/jekyll-github/jekyll-server-succ.png)
 
 ## jekyll主题更换
 官方推荐主题的：<https://github.com/jekyll/jekyll/wiki/Sites>
@@ -190,13 +190,13 @@ xjliao.me
 购买注册就不多讲了，主要讲下指定A记录和DNS解析
 
 进入domains管理界面选择域名设置DNS
-![DNSSET](/img/jekyll-github/godaddy-set-dns.png)
+![DNSSET]({{ site.tc }}/img/jekyll-github/godaddy-set-dns.png)
 添加DNS，这里使用的是dnspod的解析服务
-![DNSSETPOD](/img/jekyll-github/godaddy-set-dns-dnspod.png)
+![DNSSETPOD]({{ site.tc }}/img/jekyll-github/godaddy-set-dns-dnspod.png)
 然后登陆dnspod添加下要设置A记录的域名
-![DNSSETPOD](/img/jekyll-github/dns-pod-add-domain.png)
+![DNSSETPOD]({{ site.tc }}/img/jekyll-github/dns-pod-add-domain.png)
 点击域名进入A记录设置界面
-![DNSSETPOD](/img/jekyll-github/dns-pod-add-a-record.png)
+![DNSSETPOD]({{ site.tc }}/img/jekyll-github/dns-pod-add-a-record.png)
 主机记录填写值  
 @ 直接解析主域名 xjliao.me、wwww 解析后的域名为 www.xjliao.me、* 泛解析，匹配其他所有域名 *.xjliao.me
 
