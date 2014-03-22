@@ -6,7 +6,7 @@ thread: 616
 ---
 
 
-![](http://xjliao.qiniudn.com/lou_li_hua.jpg)
+![](http://xjliao.qiniudn.com/img/lou_li_hua.jpg)
 
 
 来了，就留下你的足迹吧。
