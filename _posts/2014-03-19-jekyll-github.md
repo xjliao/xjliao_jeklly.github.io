@@ -14,14 +14,12 @@ tags:
 
 #一、gitHub
 ## 注册github账户
-<https://github.com>, 这个怎么说呢！
+<https://github.com>
 ## 创建Repository
-创建的repository
-```
-名称格式：
-```
+创建的repository,名称格式:  
+用户名.github.io
 {% highlight console %}
-username.github.io  //用户名.github.io
+username.github.io
 {% endhighlight %}
 ![create-repository]({{ site.tc }}/img/jekyll-github/create-repository.jpg)
 
@@ -53,9 +51,10 @@ $ rvm -v
 {% endhighlight %}
 如果有显示rvm版本信息，则安装成功
 
-2)、ruby安装
+2)、ruby安装   
+安装版本为1.9.3 
 {% highlight console %}
-$ rvm install 1.9.3 //安装版本为1.9.3
+$ rvm install 1.9.3
 {% endhighlight %}
 可能时间比较长,安装完成测试
 {% highlight console %}
@@ -149,15 +148,17 @@ $ gem install rdiscount
 其他详细，[jekyll documentation](http://jekyllcn.com/docs/home/)
 
 ### 推送到xjliao.github.io
+添加自己的repository并别名为xjliao
+推送到自己的主线分支版本,注意使用ssh，需要把本地ssh公钥拷贝至github
 {% highlight console %}
-$ git remote add xjliao git@github.com:xjliao/xjliao.github.io.git //添加自己的repository并别名为xjliao
-$ git push xjliao master //推送到自己的主线分支版本,注意使用ssh，需要把本地ssh公钥拷贝至github
+$ git remote add xjliao git@github.com:xjliao/xjliao.github.io.git
+$ git push xjliao master
 {% endhighlight %}
 
 10分钟左右访问<http://xjliao.github.io> 就ok了
 
 ## Pygments 语法高亮
-[下载地址](https://pypi.python.org/pypi/Pygments 'download') 所支持100多种[语言](http://pygments.org/languages/) 样式[demo](http://pygments.org/demo/)
+[下载地址](https://pypi.python.org/pypi/Pygments 'download') 支持100多种[语言](http://pygments.org/languages/) 样式[demo](http://pygments.org/demo/)
 
 安装
 
