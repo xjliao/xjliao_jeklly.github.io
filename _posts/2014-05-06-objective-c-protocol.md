@@ -121,3 +121,20 @@ interface NSObject (NSCOMparisonMethods)
 
 >Objective-c 2.0 在声明协议中@required，@optional 来取代正式协议和非正式协议。
 
+
+##合成对象
+>合成对象其实就是java中得组合，在使用继承前，优先考虑组合是否能满足需求。  
+简单定义：就是一个类下面，声明了其他类得对象作为这个类下的实例变量。  
+
+伪代码
+{% highlight objective-c linenos %}
+@interface Square : NSObject
+{
+    Rectangle *rect; //组合了其他类的对象
+}
+
+- (int)setSide:(int)s;
+- (int)side;
+- (int)area;
+- (int)perimeter;
+{% endhighlight %}
