@@ -2,7 +2,12 @@
 title: xjliao's Homepage
 layout: page
 ---
-
+<center>
+    <audio controls="controls" autoplay="autoplay" preload="preload"           loop="loop">
+  <source src="{{ site.tc }}/audios/Traveling%20Light.mp3" type="audio/mpeg"/>
+  你的浏览器不支持,建议使用chrome进行浏览！
+  </audio>
+</center>
 <ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -48,4 +53,5 @@ layout: page
     <span class="next disabled" >后页&gt;</span>
   {% endif %}
   (共{{ paginator.total_posts }}篇)
+  <br/>
 </div>
