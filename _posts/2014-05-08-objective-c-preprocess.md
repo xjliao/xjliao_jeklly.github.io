@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Objective-c预处理"
+title: "Objective-C预处理"
 categories:
 - Objective-C
 tags:
