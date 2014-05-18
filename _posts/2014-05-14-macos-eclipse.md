@@ -15,7 +15,7 @@ eclipse 默认使用jdk 6，但macos 10.9已经不自带jdk6了
 安装好jdk后，修改文件。我这里使用得是jdk1.7.0_55
 
 ```console
-xjliao:xjliao.me lxj$ sudvim /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Info.plist 
+xjliao:xjliao.me lxj$ sudo vim /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Info.plist 
 ```
 
 修改或添加如下内容
