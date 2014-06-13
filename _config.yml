@@ -8,7 +8,7 @@ email: lxj990@gmail.com
 duoshuo: xjliao 
 weibo: lxj990@gmail.com 
 github: xjliao
-pygments: true
+highlighter: pygments 
 safe: true
 tc: http://xjliao.qiniudn.com
 paginate: 30
