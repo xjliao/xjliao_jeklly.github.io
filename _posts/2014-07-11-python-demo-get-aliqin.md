@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python 抓取阿里通信号码"
+title: "Python 抓取某通信号码"
 categories:
 - Python
 tags:
@@ -8,9 +8,9 @@ tags:
 
 
 ---
-Python抓取阿里通信号码  
+Python抓取某通信号码  
 
-code_zh.txt 内容格式：省编码-城市编码:省名-城市名 每行一条记录  
+>code_zh.txt 内容格式：省编码-城市编码:省名-城市名 每行一条记录  
 code_en.txt 内容格式和code_zh一样，中文改为汉语拼音即可,例如:11-1101:BeiJing-BeiJing  
 
 {% highlight python linenos%}
