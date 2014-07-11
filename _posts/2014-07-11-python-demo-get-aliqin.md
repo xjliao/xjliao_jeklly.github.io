@@ -11,9 +11,9 @@ tags:
 Python抓取阿里通信号码  
 
 code_zh.txt 内容格式：省编码-城市编码:省名-城市名 每行一条记录  
-code_en.txt 内容格式和code_zh一样，中文改为汉语拼音饥渴,例如:11-1101:BeiJing-BeiJing  
+code_en.txt 内容格式和code_zh一样，中文改为汉语拼音即可,例如:11-1101:BeiJing-BeiJing  
 
-{% highlight objective-c linenos%}
+{% highlight python linenos%}
 11-1101:北京市-北京市
 31-3101:上海市-上海市
 32-3201:江苏省-南京市
