@@ -10,8 +10,8 @@ tags:
 ---
 Python抓取某通信号码  
 
->code_zh.txt 内容格式：省编码-城市编码:省名-城市名 每行一条记录  
-code_en.txt 内容格式和code_zh一样，中文改为汉语拼音即可,例如:11-1101:BeiJing-BeiJing  
+code\_zh.txt 内容格式：省编码-城市编码:省名-城市名 每行一条记录  
+code\_en.txt 内容格式和code_zh一样，中文改为汉语拼音即可,例如:11-1101:BeiJing-BeiJing  
 
 {% highlight python linenos%}
 11-1101:北京市-北京市
