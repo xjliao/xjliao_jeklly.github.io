@@ -8,6 +8,7 @@ tags:
 
 
 --- 
+[原文地址:http://fuckingblocksyntax.com/](http://fuckingblocksyntax.com/)
 
 How Do I Declare A Block in Objective-C?  
 
