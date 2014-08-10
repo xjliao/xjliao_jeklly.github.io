@@ -8,8 +8,9 @@ tags:
 
 
 --- 
-[原文地址:http://nshipster.cn/nil/](http://nshipster.cn/nil/)
+[原文地址:http://nshipster.cn/nil/](http://nshipster.cn/nil/)  
 
+相关文章: <http://stackoverflow.com/questions/5908936/iphonedifference-between-nil-nil-and-null>  
 理解“不存在”的概念不仅仅是一个哲学的问题，也是一个实际的问题。我们是有形宇宙的居民，而原因在于逻辑宇宙的存在不确定性。作为一个逻辑系统的物理体现，电脑面临一个棘手的问题，就是如何用存在表达不存在.
 
 在Objective－C中，有几个不同种类的不存在。这样做的原因要追溯到一个频繁提及的NSHipster，讲解Objective-C如何在C的程序范例以及由Smalltalk启发的面向对象的范例中架起桥梁的。
