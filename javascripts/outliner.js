@@ -19,9 +19,10 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
         outline_ul.append($('<li></li>')
                              .html('<span><a href="#' + val + '">' + idx + '</a></span>'));
     });
+
     $('#main').append($('<nav id="h2outline"></nav>')
                          .css('position', 'fixed')
-                         .css('top', $('#main').position().top - 40)
+                         .css('top', $('#real_nav').height())
                          .css('width', '155px')
                          .css('text-align', 'left')
                          .html(outline_ul));
@@ -62,7 +63,7 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
             a = h2outline.width();
         // h2outline.css('right',
                       // (w - c) / 2 - (a + d));
-        h2outline.css('right', (w - c) /  3 - a);
+        h2outline.css('right', (w - c) /  3 - a + 40);
     });
 
     $(window).resize();
