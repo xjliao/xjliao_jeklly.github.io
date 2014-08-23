@@ -6,18 +6,15 @@
     <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
     <link rel="shortcut icon" href="{{ site.tc }}/favicon.ico" />
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-	<link rel="stylesheet" href="{{ site.tc }}/css/pygments.css" />
-    <link rel="stylesheet" href="{{ site.tc }}/css/style.css" />
-    <script type="text/javascript" src="{{ site.tc }}/js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="{{ site.tc }}/js/outliner.js"></script>
+    <script type="text/javascript" src="{{ site.tc }}/javascripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="{{ site.tc }}/javascripts/outliner.js"></script>
+	 <link rel="stylesheet" href="{{ site.tc }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.tc }}/stylesheets/pygment_trac.css">
+    <script src="{{ site.tc }}/javascripts/respond.js"></script>
 	<script type="text/javascript">
 	  $(function() {
 		  window.prettyPrint && prettyPrint();
 		});
-		function setTimeSpan(){
-			var date = new Date();
-			timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
-		}
 		
 		Date.prototype.format = function(format)
 			{
@@ -40,19 +37,21 @@
 			}
   </script>
   </head>
-  <body onLoad="setInterval(setTimeSpan,1000);">
+  <body>
+    <div id="header">
+        <nav id="real_nav">
+            <span><a title="home" class="" href="/">home</a></span>
+            <span><a title="categories" class="" href="/categories/">categories</a></span>
+            <span><a title="tags" class="" href="/tags/">tags</a></span>
+            <span><a title="guestbook" class="" href="/guestbook/">guestbook</a></span>
+            <span><a title="about" class="" href="/about/">about</a></span>
+        </nav>
+    </div><!-- end header -->
     <div id="container">
       <div id="main" role="main">
         <header>
         <h1>{{ page.title }}</h1>
         </header>
-        <nav id="real_nav">
-        <span><a title="home" class="" href="/">home</a></span>
-        <span><a title="categories" class="" href="/categories/">categories</a></span>
-        <span><a title="tags" class="" href="/tags/">tags</a></span>
-        <span><a title="guestbook" class="" href="/guestbook/">guestbook</a></span>
-        <span><a title="about" class="" href="/about/">about</a></span>
-        </nav>
         <article class="content">
         {{ content }}
         </article>
@@ -64,9 +63,7 @@
     <footer>
         <p>
 			<small>
-				<a href="http://github.com/xjliao/xjliao.github.io/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/xjliao/xjliao.github.io/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/xjliao/xjliao.github.io" target="_blank" title="项目主页">GitHub</a> | Copyright 2013 - {{site.time | date:"%Y"}} by <a href="/about/">xjliao</a> | 
-				<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000064133'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000064133' type='text/javascript'%3E%3C/script%3E"));</script>
-				| <span class="label label-info" id="timeSpan"></span>				
+				<a href="http://github.com/xjliao/xjliao.github.io/new/master/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/xjliao/xjliao.github.io/edit/master/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/xjliao/xjliao.github.io" target="_blank" title="项目主页">GitHub</a> | Copyright 2013 - {{site.time | date:"%Y"}} by <a href="/about/">xjliao</a>			
 			</small>
 		</p>
     </footer>
