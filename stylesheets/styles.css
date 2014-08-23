@@ -861,7 +861,7 @@ section #title .credits.right {
   }
 }
 
-@import url(http://fonts.googleapis.com/css?family=Galdeano|Electrolize|Cuprum);
+/*@import url(http://fonts.googleapis.com/css?family=Galdeano|Electrolize|Cuprum);*/
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 8px;
@@ -910,9 +910,9 @@ nav a{display:inline-block;padding:.7em 1em;color:#FFFFFF;font-family:"Electroli
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s ;}
 .post{padding:.5em 0em;}
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;}
-h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
-h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;}
+h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;}
+h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;}
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size:12px;line-height:1.6;}
 footer{text-align:center;display:block;border-top:1px dashed #CCC;}
