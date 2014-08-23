@@ -877,7 +877,7 @@ section #title .credits.right {
 *{padding:0;margin:0;border:none;outline:none;}
 /*a{color:#dd0000;text-decoration:none;}*/
 /*a:hover{color:#333333;text-decoration:underline;}*/
-a:hover{text-decoration:underline;}
+/*a:hover{text-decoration:underline;}*/
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 /*p{padding:.5em 0;}*/
 li{padding:.2em 0;}
@@ -892,7 +892,8 @@ blockquote p{margin:0;padding:.5em 0;}
 .content h1{padding:.5em 0;}
 .content img{max-width:640px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom:1em;}
-#tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
+/*#tag_cloud a:hover{color:#333333 !important;text-decoration:none;}*/
+#tag_cloud a:hover{!important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
 .listing-item a{padding:.2em 1em;}
 .listing-item time{color:#999999;}
@@ -908,7 +909,7 @@ header{padding:2em 0em 0em;border-bottom:1px solid #cccccc; width: auto;}
 nav a{display:inline-block;padding:.7em 1em;color:#FFFFFF;font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:center;width:auto;}
 /*右边当鼠标移到那里时字体颜色*/
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s ;}
-.post{padding:.5em 0em;}
+/*.post{padding:.5em 0em;}*/
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;}
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;}
 h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;}
