@@ -644,7 +644,7 @@ code {
 }
 
 pre {
-  /*padding: 8px 15px;*/
+  padding: 8px 15px;
   background: #191919;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -932,4 +932,3 @@ footer a:hover{border-bottom:1px dashed #BBB;text-decoration:none;}
 .paginator a,.paginator span{padding:0 4px;margin:2px;text-decoration:none;}
 .paginator .current-page{color:white;background:#ff0000;}
 .paginator a:hover{color:white;background:#83BF73;}
-.ds-login-buttons p{color:white}

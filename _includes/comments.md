@@ -16,3 +16,5 @@
 	})();
 	</script>
 {% endif %}
+
+<link rel="stylesheet" href="{{site.tc}}/stylesheets/duoshuo.css">

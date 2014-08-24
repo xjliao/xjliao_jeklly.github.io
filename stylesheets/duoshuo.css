@@ -1,0 +1,27 @@
+/*-- 多说样式 */
+.ds-login-buttons p{color:white}
+#ds-thread #ds-reset .ds-comment-actions a:hover {
+    color: white;
+}
+#ds-reset {
+    color: #f0e7d5;
+    font-size: 13px;
+    font-size-adjust: none;
+    font-weight: normal;
+    line-height: 1;
+    text-align: left;
+}
+#ds-thread #ds-reset li.ds-tab a:hover {
+     border-radius: 5px;
+     display: inline;
+     padding: 3px 5px;
+     color:white;
+}
+
+#ds-thread #ds-reset .ds-sort a:hover {
+     color: white;
+}
+
+#ds-thread #ds-reset .ds-powered-by a:hover {
+    color: white;
+}
