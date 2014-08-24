@@ -17,4 +17,5 @@
 	</script>
 {% endif %}
 
-<link rel="stylesheet" href="{{site.tc}}/stylesheets/duoshuo.css">
+<link rel="stylesheet" href="{{site.tc}}/stylesheets/duoshuo.css"/>
+<!-- <link rel="stylesheet" href="/stylesheets/duoshuo.css"/> -->
