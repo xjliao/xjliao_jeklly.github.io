@@ -884,13 +884,12 @@ li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol{margin-left:1em;}
 pre code{margin:0em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
-blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
+blockquote{display:block;text-align:left;border-left:4px solid #ffcc00;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
-/*blockquote p{margin:0;padding:.5em 0;}*/
+blockquote{margin:1em 0em;}
 blockquote p{margin:0;padding:0em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 0em;}
 .content{font-size:16px;line-height:24px;}
-/*.content h1{padding:.5em 0;}*/
 .content h1{padding:0em 0;}
 .content img{max-width:640px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom:1em;}
@@ -933,3 +932,4 @@ footer a:hover{border-bottom:1px dashed #BBB;text-decoration:none;}
 .paginator a,.paginator span{padding:0 4px;margin:2px;text-decoration:none;}
 .paginator .current-page{color:white;background:#ff0000;}
 .paginator a:hover{color:white;background:#83BF73;}
+.ds-login-buttons p{color:white}
