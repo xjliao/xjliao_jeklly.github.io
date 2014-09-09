@@ -21,5 +21,5 @@ EnvironmentError: /usr/local/bin/mysql_config not found
 
 解决方案:  
 打开当前目录下的site.cfg, 并去掉#mysql\_config = /usr/local/bin/mysql\_config,
-改为安装的mysql目录下的mysql_config,
-我的目录:/usr/local/mysql/bin/mysql_config
+改为安装的mysql目录下的mysql\_config,
+我的目录:/usr/local/mysql/bin/mysql\_config
