@@ -9,14 +9,8 @@ tags:
 --- 
   
 {% highlight objective-c %}
-NSMutableAttributedString *content = [[NSMutableAttributedString
-alloc]initWithString:[NSString stringWithFormat:@"找回密码"]];
+NSMutableAttributedString *content = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"找回密码"]];
 NSRange contentRange = {0,[content length]};
-[content addAttribute:NSUnderlineStyleAttributeName value:[NSNumber
-numberWithInteger:NSUnderlineStyleSingle] range:contentRange];
+[content addAttribute:NSUnderlineStyleAttributeName value:[NSNumber numberWithInteger:NSUnderlineStyleSingle] range:contentRange];
 findPasswordLb.attributedText = content;
 {% endhighlight %}
-
-
-
-
