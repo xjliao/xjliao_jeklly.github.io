@@ -24,7 +24,7 @@ openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 {% highlight console %}
 [root@dcn-vps-srv708 ~]# tar -zxvf ./nginx-1.6.2.tar.gz
 [root@dcn-vps-srv708 ~]# cd ./nginx-1.6.2
-[root@dcn-vps-srv708 ~]# ./configure --with-http_sub_module --with-http_sub_status_module --with-http_ssl_module --prefix=/usr/local/nginx-1.6.2/
+[root@dcn-vps-srv708 ~]# ./configure --with-http_sub_module --with-http_stub_status_module --with-http_ssl_module --prefix=/usr/local/nginx-1.6.2/
 {% endhighlight %}
 
 编辑nginx配置文件nginx.conf，(注意: 27.xx.xx.xx替换成域名或者IP)  
@@ -97,7 +97,7 @@ http {
                 proxy_set_header Accept-Encoding "";
                 proxy_set_header User-Agent $http_user_agent;
                 proxy_set_header Accept-Language "zh-CN";
-                proxy_set_header Cookie "PREF=ID=047808f19f6de346:U=0f62f33dd8549d11:FF=2:LD=zh-CN:NW=1:TM=1325338577:LM=1332142444:GM=1:SG=2:S=rE0SyJh2w1IQ-Maw";
+                proxy_set_header Cookie "PREF=ID=047808f19f6de346:U=0f62f33dd8549d11:FF=2:LD=zh-CN:NR=100:NW=1:TM=1325338577:LM=1332142444:GM=1:SG=2:S=rE0SyJh2w1IQ-Maw";
                 sub_filter www.google.co.jp 27.xx.xx.xx;
                 sub_filter_once off; 
 	    }
