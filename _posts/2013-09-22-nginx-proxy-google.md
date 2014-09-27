@@ -8,7 +8,7 @@ tags:
 
 --- 
 
-首先你得有个国外主机,我用的虚拟主机是smartvps.cn,服务器在日本,各方面还行,系统是centos6.5.  
+首先你得有个国外主机,我用的虚拟主机是linode.com,服务器在日本,各方面还行,系统是centos6.5.  
 下载nginx,这里我使用的是nginx-1.6.2  
 下载地址1:<http://nginx.org/download/nginx-1.6.2.tar.gz>  
 下载地址2:<http://pan.baidu.com/s/1o62s22A>
