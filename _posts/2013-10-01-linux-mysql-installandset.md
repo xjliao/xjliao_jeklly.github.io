@@ -19,7 +19,7 @@ tags:
 
 2.修改root用户默认密码
 {% highlight console %}
-[xjliao@li539-59 ~]$ mysqladmin -u root -p password 'root'
+[xjliao@li539-59 ~]$ mysqladmin -u root password 'root'
 {% endhighlight %}
 
 3.开启远程连接权限
