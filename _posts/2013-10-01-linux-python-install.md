@@ -25,7 +25,7 @@ tags:
 
 如果是用得redhat centos之类得Linux操作系统,可能会影响到yum的使用, 需要修改
 
-{% hightlight console %}
+{% highlight console %}
 [xjliao@li539-59 ~] sudo vim /usr/bin/yum
 #!/usr/bin/python2.6
 {% endhighlight %}

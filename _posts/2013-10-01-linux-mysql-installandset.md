@@ -11,19 +11,19 @@ tags:
 --- 
 
 1.安装mysql
-{% hightlight console %}
+{% highlight console %}
 [xjliao@li539-59 ~] sudo yum -y install mysql-server 
 [xjliao@li539-59 ~] sudo yum -y install mysql-devel
 [xjliao@li539-59 ~] sudo yum -y install mysql 
 {% endhighlight %}
 
 2.修改root用户默认密码
-{% hightlight console %}
+{% highlight console %}
 [xjliao@li539-59 ~]$ mysqladmin -u root -p password 'root'
 {% endhighlight %}
 
 3.开启远程连接权限
-{% hightlight console %}
+{% highlight console %}
 [xjliao@li539-59 ~]$ mysql -u root -p
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -42,7 +42,7 @@ mysql> flush privileges;
 {% endhighlight %}
 
 4.Mysql 配置/etc/my.cnf
-{% hightlight console %}
+{% highlight console %}
 [mysqld]
 datadir=/var/lib/mysql
 socket=/var/lib/mysql/mysql.sock
@@ -60,7 +60,7 @@ pid-file=/var/run/mysqld/mysqld.pid
 {% endhighlight %}
 
 5.设置mysql服务开机启动
-{% hightlight console %}
+{% highlight console %}
 [xjliao@li539-59 ~]$ sudo chkconfig mysqld on
 [xjliao@li539-59 ~]$ chkconfig --list mysqld
 [xjliao@li539-59 ~]$ sudo service mysqld restart
