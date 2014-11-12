@@ -2,11 +2,11 @@
 layout: post
 title: "Linux python 安装或者升级"
 categories:
-- python
-- linux
+- Python
+- Linux
 tags:
-- python
-- linux 
+- Python
+- Linux 
 
 --- 
 

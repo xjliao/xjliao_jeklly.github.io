@@ -2,9 +2,9 @@
 layout: post
 title: "python mysql"
 categories:
-- python 
+- Python 
 tags:
-- python 
+- Python 
 
 --- 
 

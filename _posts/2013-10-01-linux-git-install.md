@@ -2,9 +2,9 @@
 layout: post
 title: "Linux git install"
 categories:
-- linux
+- Linux
 tags:
-- linux 
+- Linux 
 
 --- 
 
