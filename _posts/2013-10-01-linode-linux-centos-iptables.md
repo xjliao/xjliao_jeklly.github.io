@@ -16,7 +16,7 @@ iptables: Setting chains to policy ACCEPT: security raw nat[FAILED]filter
 
 解决方案  
 编辑/etc/init.d/iptables，找到：  
-{% highlight shell %}
+{% highlight sh %}
 for i in $tables; do
         echo -n "$i "
         case "$i" in
@@ -29,7 +29,7 @@ for i in $tables; do
 
 加入以下内容到“case "$i" in”下面：
 
-{% highlight shell %}
+{% highlight sh %}
 security)
        $IPTABLES -t filter -P INPUT $policy \
            && $IPTABLES -t filter -P OUTPUT $policy \
@@ -40,14 +40,14 @@ security)
 
 如果是用得redhat centos之类得Linux操作系统,可能会影响到yum的使用, 需要修改
 
-{% highlight shell %}
+{% highlight sh %}
 [xjliao@li539-59 ~] sudo vim /usr/bin/yum
 \#!/usr/bin/python2.6
 {% endhighlight %}
 
 结果
 
-{% highlight console %}
+{% highlight sh %}
 for i in $tables; do
     echo -n "$i "
     case "$i" in
