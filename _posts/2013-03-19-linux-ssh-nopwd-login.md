@@ -18,6 +18,8 @@ id_rsa.pub                                                                      
 xjl:~ xjliao$ ssh 106.186.19.59
 Last login: Wed Oct 22 09:25:00 2014 from 49.65.251.185
 [xjliao@li539-59 ~]$ cat id_rsa.pub >> ~/.ssh/authorized_keys
+[xjliao@li539-59 ~]$ chmod 700 ~/.ssh
+[xjliao@li539-59 ~]$ chmod 600 ~/.ssh/authorized_keys
 [xjliao@li539-59 ~] exit
 xjl:~ xjliao$ ssh 106.186.19.59
 Last login: Wed Oct 22 09:25:00 2014 from 49.65.251.185
