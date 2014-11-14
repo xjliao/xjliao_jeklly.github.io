@@ -29,7 +29,7 @@ yum install perl-ExtUtils-MakeMaker package.
 行进安装  
   
 出现错误二：  
- /bin/sh: msgfmt: command not found
+ /bin/sh: msgfmt: command not found  
 yum install gettext-devel
 可解决！
 

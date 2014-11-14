@@ -14,7 +14,7 @@ tags:
 {% highlight console %}
 [xjliao@li539-59 ~] sudo yum -y install mysql-server 
 [xjliao@li539-59 ~] sudo yum -y install mysql-devel
-[xjliao@li539-59 ~] sudo yum -y install mysql 
+[xjliao@li539-59 ~] sudo service mysqld start 
 {% endhighlight %}
 
 2.修改root用户默认密码

@@ -25,6 +25,7 @@ openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 [root@dcn-vps-srv708 ~]# tar -zxvf ./nginx-1.6.2.tar.gz
 [root@dcn-vps-srv708 ~]# cd ./nginx-1.6.2
 [root@dcn-vps-srv708 ~]# ./configure --with-http_sub_module --with-http_stub_status_module --with-http_ssl_module --prefix=/usr/local/nginx-1.6.2/
+[root@dcn-vps-srv708 ~]# make && sudo make install 
 {% endhighlight %}
 
 编辑nginx配置文件nginx.conf，(注意: 27.xx.xx.xx替换成域名或者IP)  
