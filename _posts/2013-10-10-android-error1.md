@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No resource found that matches the given name '@style/Theme.AppCompat.Light'"
+title: "No resource found that matches the given name \'@style/Theme.AppCompat.Light\'"
 categories:
 - Android
 tags:
@@ -15,8 +15,8 @@ http://developer.android.com/tools/support-library/setup.html
 
 If use eclipse
 
-Goto windows android sdk manager. Under extras check Android Support Library and click install.
-
+Goto windows android sdk manager. Under extras check Android Support Library and click install.  
+![img](http://i.stack.imgur.com/vghlq.png)
 enter image description here
 
 After that the AppCompat Can be found at
