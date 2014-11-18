@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'No resource found that matches the given name '@style/Theme.AppCompat.Light'
+title: "No resource found that matches the given name '@style/Theme.AppCompat.Light'"
 categories:
 - Android
 tags:
