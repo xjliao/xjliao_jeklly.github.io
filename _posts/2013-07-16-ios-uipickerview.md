@@ -2,9 +2,9 @@
 layout: post
 title: "Ios UIPickerView demo"
 categories:
-- IOS
+- Ios
 tags:
-- IOS
+- Ios
 
 
 --- 
