@@ -17,15 +17,15 @@ delegate中文叫做委托,通俗点讲就是一些事件处理"委托"给别人
 实现步骤:  
 通常，一个delegate的使用过程，需要经过五步：
 
-1.    创建一个 delegate；
+1.    创建一个 delegate；(下面的例子:BIDVCAViewControllerDelegate)
 
-2.    委托者声明一个delegate；
+2.    委托者声明一个delegate；(BIDVCBViewController)
 
-3.    委托者调用delegate内的方法（method）；
+3.    委托者调用delegate内的方法（method）；(BIDVCBViewController)
 
-4.    被委托者设置delegate，以便被委托者调用；
+4.    被委托者设置delegate，以便被委托者调用；(BIDVCAViewController)
 
-5.    被委托者实现Delegate 所定义的方法。  
+5.    被委托者实现Delegate 所定义的方法。(BIDVCAViewController)  
 
 
 下面举个例子  
@@ -48,7 +48,7 @@ AppDelegate程序入口 主要方法
 {% endhighlight %}
 
 我们自定义的delegate:  
-BIDVCBViewControllerDelegate.h  
+BIDVCAViewControllerDelegate.h  
 
 {% highlight objective-c linenos%}
 //
