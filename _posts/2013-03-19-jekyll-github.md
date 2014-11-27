@@ -2,13 +2,13 @@
 layout: post
 title: 'jekyll+github 搭建博客'
 categories:
-- ruby
-- jekyll
-- github
+- Ruby
+- Jekyll
+- Github
 tags:
-- ruby
-- jekyll
-- github
+- Ruby
+- Jekyll
+- Github
 
 ---
 

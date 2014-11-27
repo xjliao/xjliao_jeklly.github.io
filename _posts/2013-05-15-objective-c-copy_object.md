@@ -2,9 +2,9 @@
 layout: post
 title: "Objective-C复制对象"
 categories:
-- Objective-C
+- Objective-c
 tags:
-- Objective-C
+- Objective-c
 
 
 ---

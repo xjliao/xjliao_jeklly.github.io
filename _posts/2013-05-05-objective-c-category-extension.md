@@ -2,9 +2,9 @@
 layout: post
 title: "Objective-C类别与类扩展"
 categories:
-- Objective-C
+- Objective-c
 tags:
-- Objective-C
+- Objective-c
 
 
 ---

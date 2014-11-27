@@ -2,9 +2,9 @@
 layout: post
 title: 'objective-c delegate'
 categories:
-- objective-c
+- Objective-c
 tags:
-- objective-c
+- Objective-c
 
 ---
 ###What Is Delegate?  

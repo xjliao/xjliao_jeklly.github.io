@@ -2,9 +2,9 @@
 layout: post
 title: "Ios 百度 云推送"
 categories:
-- nginx
+- Nginx
 tags:
-- nginx 
+- Nginx 
 
 --- 
 

@@ -2,9 +2,9 @@
 layout: post
 title: "nginx 反向代理 google"
 categories:
-- nginx
+- Nginx
 tags:
-- nginx 
+- Nginx 
 
 --- 
 

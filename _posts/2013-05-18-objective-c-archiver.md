@@ -2,9 +2,9 @@
 layout: post
 title: "Objective-C归档"
 categories:
-- Objective-C
+- Objective-c
 tags:
-- Objective-C
+- Objective-c
 
 
 ---

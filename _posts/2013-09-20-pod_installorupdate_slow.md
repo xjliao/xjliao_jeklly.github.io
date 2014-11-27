@@ -2,9 +2,9 @@
 layout: post
 title: "pod install/update 速度慢 解决方案"
 categories:
-- ios 
+- Ios 
 tags:
-- ios 
+- Ios 
 
 --- 
 
