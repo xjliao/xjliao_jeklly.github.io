@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'android 常见问题'
+title: 'android issues'
 categories:
 - Android
 tags:
