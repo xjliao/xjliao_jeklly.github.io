@@ -11,3 +11,5 @@ tags:
 导入或手动设置模板:Window->Preference->Java->Code Style->Code Template
 
 已配置好模板[codetepmplate](http://7xi4gg.com1.z0.glb.clouddn.com/codetemplates.xml)
+
+自动注释快捷键:选中类,变量,方法, alt＋shift+J
