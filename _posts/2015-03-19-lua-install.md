@@ -10,7 +10,7 @@ tags:
 ---
 ##1.源码安装
 需要使用make命令, 安装xcode即可解决  
-{% highlight lua linenos %}
+{% highlight lua %}
 curl -R -O http://www.lua.org/ftp/lua-5.3.0.tar.gz
 tar -zxvf ./lua-5.3.0.tar.gz
 cd ./lua-5.3.0
