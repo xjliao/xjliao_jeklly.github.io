@@ -17,7 +17,7 @@ tags:
 点击下面每行的![](http://xjliao-images.qiniudn.com/enroll_now.jpg) 注册相应类型的开发者账号.
 ![](http://xjliao-images.qiniudn.com/choosing_an_ios_developer_program.jpg)
 
-##申请企业开发者账号
+##取消已在付款阶段的开发者账号注册
 你需要已申请好D-U-N-S® Number(邓白氏码)和apple id.才能进行如下步骤.
 
 一. <font color=red>取消申请,如未申请请略过一,直接进入二.
@@ -30,6 +30,7 @@ tags:
 ![](http://xjliao-images.qiniudn.com/099BEDED-3523-44CF-BED2-735719B614D8.jpg)
 等待取消.进入二步骤
 
+##企业开发者账号注册
 二:注册开发者账号
 1.打开apple开发者中心网站(https://developer.apple.com), 点击箭头方向矩形方框内的Programs
 ![](http://xjliao-images.qiniudn.com/A187F79B-5693-473C-AE39-FF82BFFA3429.jpg)
