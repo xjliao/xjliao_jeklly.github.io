@@ -53,6 +53,7 @@ default-character-set = utf8 <-添加这行,设置字符集
 
 [mysql]
 default-character-set = utf8  <-添加这行,设置字符集
+protocol=tcp <-指定是什么协议, 默认是socket
 
 [mysqld_safe]
 log-error=/var/log/mysqld.log
