@@ -9,24 +9,6 @@ tags:
 --- 
 
 ##Python 执行shell命令主要有四种方式
-##1.os.system()
-这这种方式执行shell命令是得不到shell命令的输出。
-
-
-#import os
-cmd = 'ls'
-os.system(cmd)
-{% endhighlight %}
-
-
-##2.os.system()
-{% highlight python %}
-#import os
-cmd = 'ls'
-os.system(cmd)
-
-
-##这里介绍一下python执行shell命令的四种方法：  
 ##1、os.system()
 这个函数来执行shell命令  
 {% highlight python %}
@@ -67,6 +49,7 @@ commands.getstatus(file)返回ls -ld file 的执行结果字符串，调用了ge
 
 ##4、subprocess
 使用subprocess模块可以创建新的进程，可以与新建进程的输入/输出/错误管道连通，并可以获得新建进程执行的返回状态。使用subprocess模块的目的是替代os.system()、os.popen*()、commands.*等旧的函数或模块。
+{% highlight python %}
 import subprocess
 1、
 subprocess.call(command, shell=True)
