@@ -11,7 +11,7 @@ tags:
 ##官方教程
 [https://developer.apple.com/library/prerelease/ios/  documentation/Swift/Conceptual/Swift_Programming_Language/  Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
 
-##定义和调用函数
+##函数的定义和调用
 {% highlight swift linenos %}
 func funcName(parameter1: parameterType, parameter2: parameterType) -> returnType {
 	// do something.
@@ -25,7 +25,7 @@ func sayHello(personName: String) -> String {
     return greeting
 }
 {% endhighlight %}
-##函数参数与返回类型
+##函数的参数与返回类型
 ####1、多个输入参数
 {% highlight swift linenos %}
 func halfOpenRangeLength(start: Int, end: Int) -> Int {

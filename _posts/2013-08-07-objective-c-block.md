@@ -28,4 +28,4 @@ returnType (^blockName)(parameterTypes) = ^returnType(parameters) {...};
 //typdef
 typedef returnType (^TypeName)(parameterTypes);
 TypeName blockName = ^returnType(parameters) {...};
-{% endhighlight %}
+{% endhighlight %}.
