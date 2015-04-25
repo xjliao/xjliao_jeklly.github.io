@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift func(函数)"
+title: "Swift function"
 categories:
 - Swift
 tags:
