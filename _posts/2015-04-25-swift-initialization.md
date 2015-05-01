@@ -17,7 +17,9 @@ init() {
     // perform some initialization here
 }
 {% endhighlight %}
+
 demo
+
 {% highlight swift linenos %}
 struct Fahrenhit {
     var temperature: Double
@@ -39,10 +41,4 @@ struct Fahrenheit {
 {% endhighlight %}
 ##自定义构造过程
 ####1.初始化参数
-{% highlight swift linenos %}
-
-{% endhighlight %}
 ####3、无返回值函数
-{% highlight swift linenos %}
-
-{% endhighlight %}
